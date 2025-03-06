@@ -1,0 +1,37 @@
+/* Header */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Posts List */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Post Container */
+.post-container {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+/* Post Title */
+.post-container h2 {
+    margin-bottom: 10px;
+}
+
+/* Post Content */
+.post-container p {
+    line-height: 1.6;
+    color: #555;
+}
